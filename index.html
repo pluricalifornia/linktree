@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plurinational Land Reform - Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        .profile {
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #4CAF50, #81C784);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            color: white;
+        }
+
+        .profile h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .profile p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-item {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 18px 24px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+            background: linear-gradient(45deg, #f8f9ff, #ffffff);
+        }
+
+        .link-item:active {
+            transform: translateY(0);
+        }
+
+        .link-item.primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .link-item.primary:hover {
+            background: linear-gradient(45deg, #5a6fd8, #6a4190);
+        }
+
+        .link-item.secondary {
+            background: linear-gradient(45deg, #4CAF50, #66BB6A);
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        .link-item.secondary:hover {
+            background: linear-gradient(45deg, #43A047, #5CB660);
+        }
+
+        .link-item.tertiary {
+            background: linear-gradient(45deg, #FF7043, #FF8A65);
+            color: white;
+            border-color: #FF7043;
+        }
+
+        .link-item.tertiary:hover {
+            background: linear-gradient(45deg, #F4511E, #FF7043);
+        }
+
+        .link-icon {
+            margin-right: 12px;
+            font-size: 20px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+                margin: 10px;
+            }
+            
+            .profile h1 {
+                font-size: 24px;
+            }
+            
+            .link-item {
+                padding: 16px 20px;
+                font-size: 15px;
+            }
+        }
+
+        /* Subtle animation */
+        .container {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-image">🌱</div>
+            <h1>Plurinational Land Reform</h1>
+            <p>Building sustainable communities through land justice and agroecological education</p>
+        </div>
+        
+        <div class="links">
+            <a href="https://pluricalifornia.github.io/plurinational-landreform/" class="link-item primary" target="_blank">
+                <span class="link-icon">🏠</span>
+                Working Group Home Page
+            </a>
+            
+            <a href="https://pluricalifornia.github.io/plurinational-landreform/for-students.html" class="link-item secondary" target="_blank">
+                <span class="link-icon">📚</span>
+                Summer School Landing Page
+            </a>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3F9-QUoGFX0tIYuALt5dfmA9tWZphVWUc5VAolSCR4GTlqA/viewform" class="link-item" target="_blank">
+                <span class="link-icon">✏️</span>
+                Summer School Sign-up
+            </a>
+            
+            <a href="https://gofund.me/610b91cb" class="link-item tertiary" target="_blank">
+                <span class="link-icon">💚</span>
+                Agroecological School Funding
+            </a>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScYqUQYb8YIdhNk0GLFt6YMo2xzO-6TfkyYBXYX4ddqUUFm0g/viewform?usp=sharing&ouid=103672387951163693979" class="link-item" target="_blank">
+                <span class="link-icon">🎯</span>
+                Organizing Benefits Sign-up
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Join us in creating sustainable change through land justice</p>
+        </div>
+    </div>
+</body>
+</html>
